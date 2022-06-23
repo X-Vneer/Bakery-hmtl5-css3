@@ -214,6 +214,7 @@ header {
   align-items: center;
   justify-content: center;
   color: white;
+  background-attachment: fixed;
 
   .icon {
     position: absolute;
@@ -273,6 +274,8 @@ header {
 .aoc {
   padding: $s-padding 0;
   background-image: url(../../images/aoc-background.jpg);
+  background-attachment: fixed;
+
   .container {
     display: flex;
   }
@@ -424,6 +427,7 @@ header {
   background-repeat: no-repeat;
   padding-top: $s-padding + 50px;
   padding-bottom: $s-padding + 50px;
+
   .container {
     display: grid;
     place-content: center;
@@ -585,6 +589,8 @@ header {
 .breakfast {
   background-image: url(../../images/breackfast.jpg);
   padding: $s-padding 0;
+  background-attachment: fixed;
+
   .container {
     display: flex;
     justify-content: center;
